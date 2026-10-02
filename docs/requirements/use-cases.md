@@ -960,7 +960,7 @@ The course admin shall be able to cancel the use case at any time prior to submi
 
 **Frequency of Use:** Approximately 1–2 instructors, several usages per week during weeks in which submissions are due.
 
-**Business Rules:** BR-section-scoped-access, BR-role-based-access, BR-team-assignment-required, BR-active-weeks, BR-evaluation-submission-window, BR-reminder-rate-limit
+**Business Rules:** BR-section-scoped-access, BR-role-based-access,BR-student-lifecycle, BR-team-assignment-required, BR-active-weeks, BR-evaluation-submission-window, BR-reminder-rate-limit
 
 **Associated Information:**
 - **Missing submission:** Missing status is evaluated separately for each artifact type. A required artifact is missing when no current stored submission exists for that student, artifact type, and relevant week.
