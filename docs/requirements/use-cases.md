@@ -929,7 +929,7 @@ The course admin shall be able to cancel the use case at any time prior to submi
   - 2c1. The system displays the peer evaluation as missed but does not classify it as reminder-eligible because the evaluation can no longer be submitted (BR-evaluation-submission-window).
   - 2c2. The system indicates to the instructor that the submission window has closed.
     
- - **2d. The student's account is deactivated:**
+- **2d. The student's account is deactivated:**
   - 2d1. The system does not classify the student's missing artifacts as reminder-eligible because the student cannot currently access the system to submit them (BR-student-lifecycle).
   - 2d2. The system excludes the student from the reminder-send list.
 
