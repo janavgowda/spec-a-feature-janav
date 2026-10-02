@@ -926,16 +926,20 @@ The course admin shall be able to cancel the use case at any time prior to submi
   - 2b2. The system does not offer a peer-evaluation reminder for that week.
 
 - **2c. The peer-evaluation submission window has closed:**
-  - 2c1. The system may identify the peer evaluation as missed but does not offer the student as eligible for a reminder for that evaluation because the evaluation can no longer be submitted (BR-evaluation-submission-window).
+  - 2c1. The system displays the peer evaluation as missed but does not classify it as reminder-eligible because the evaluation can no longer be submitted (BR-evaluation-submission-window).
   - 2c2. The system indicates to the instructor that the submission window has closed.
+    
+ - **2d. The student's account is deactivated:**
+  - 2d1. The system does not classify the student's missing artifacts as reminder-eligible because the student cannot currently access the system to submit them (BR-student-lifecycle).
+  - 2d2. The system excludes the student from the reminder-send list.
 
-- **2d. The student previously submitted an artifact but the submission no longer exists:**
-  - 2d1. The system treats the artifact as missing if no current stored submission exists for that student, artifact type, and relevant week.
-  - 2d2. If the student is otherwise eligible to submit the artifact, the student appears in the reminder list.
+- **2e. The student previously submitted an artifact but the submission no longer exists:**
+  - 2e1. The system treats the artifact as missing if no current stored submission exists for that student, artifact type, and relevant week.
+  - 2e2. If the student is otherwise eligible to submit the artifact, the student appears in the reminder list.
 
-- **2e. No students currently have reminder-eligible missing submissions:**
-  - 2e1. The system informs the instructor that there are no students who currently need a reminder.
-  - 2e2. Use case ends.
+- **2f. No students currently have reminder-eligible missing submissions:**
+  - 2f1. The system informs the instructor that there are no students who currently need a reminder.
+  - 2f2. Use case ends.
 
 - **5a. A selected student submitted the artifact after the list was displayed:**
   - 5a1. The system skips the reminder for that artifact rather than sending an outdated reminder.
