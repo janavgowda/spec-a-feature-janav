@@ -963,7 +963,7 @@ The course admin shall be able to cancel the use case at any time prior to submi
 **Business Rules:** BR-section-scoped-access, BR-role-based-access,BR-student-lifecycle, BR-team-assignment-required, BR-active-weeks, BR-evaluation-submission-window, BR-reminder-rate-limit
 
 **Associated Information:**
-- **Missing submission:** Missing status is evaluated separately for each artifact type. A required artifact is missing when no current stored submission exists for that student, artifact type, and relevant week.
+- **Missing submission:** Missing status is evaluated separately for each artifact type. A weekly activity report is considered submitted for a student and week when at least one activity for that student's WAR is currently stored for that week; if no activities remain, the WAR is missing. A peer evaluation is considered submitted when a current peer-evaluation record exists for that student and evaluated week. If the applicable record no longer exists, the artifact is missing again.
 - A submitted weekly activity report does not satisfy a missing peer evaluation, and a submitted peer evaluation does not satisfy a missing weekly activity report.
 - A student appears in the reminder list only for a missing artifact that the student is currently permitted to submit.
 - Weekly activity reports are not excluded merely because the week is outside the course section's active-weeks window; peer evaluations follow BR-active-weeks.
