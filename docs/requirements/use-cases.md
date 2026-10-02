@@ -886,8 +886,6 @@ The course admin shall be able to cancel the use case at any time prior to submi
 
 **Assumptions:**
 **Open Issues:**
-
-## **Team**
 ### **UC-SEC-remind-non-submitters: The instructor reminds students with missing submissions**
 
 **UC ID and Name:** UC-SEC-remind-non-submitters: Remind students with missing submissions  
@@ -974,6 +972,8 @@ The course admin shall be able to cancel the use case at any time prior to submi
 **Assumptions:**
 
 **Open Issues:**
+
+## **Team**
 
 ### **UC-TEA-find-teams: The course admin/instructor finds teams**
 
